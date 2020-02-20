@@ -12,6 +12,7 @@ def Pick_Dish(input_tags):
 	for elem in menu_s:
 		menu.append(Dish(*elem))
 
+	input_tags = Select_tag()
 	#Store all output into a huge list
 	Output_List = []
 
