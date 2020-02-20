@@ -5,10 +5,10 @@ Created on Mon Feb  3 09:31:28 2020
 @author: 劉又聖
 """
 
-from adddish import Add_Dish
-from pickdish import Pick_Dish
-from modifydish import Modify_Dish
-from deletedish import Delete_Dish, Get_Menu
+from Add_dish import Add_Dish
+from Pick_dish import Pick_Dish
+#from modifydish import Modify_Dish
+#from deletedish import Delete_Dish, Get_Menu
 
 def main():
     prompt = 'input 1 for Add Dish, 2 for Pick Dish, ' + \
