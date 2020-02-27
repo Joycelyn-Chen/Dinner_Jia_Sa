@@ -8,6 +8,7 @@ Created on Mon Feb  3 09:31:28 2020
 import os, sys
 from Pack.Fun.Add_Dish  import Add_Dish
 from Pack.Fun.Pick_Dish import Pick_Dish
+from Pack.Fun.Del_Dish  import Delete_Dish
 from Pack.Fun.common    import Get_Menu, Show_Menu
 
 def main():
@@ -35,8 +36,7 @@ def main():
             #Modify_Dish()
             pass
         elif choice == '4':
-            #Delete_Dish()
-            pass
+            Delete_Dish(f_name)
         elif choice == '5':
             Show_Menu(f_name)
         elif choice == 'Q':
