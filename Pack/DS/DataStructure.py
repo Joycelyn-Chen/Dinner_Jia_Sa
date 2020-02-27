@@ -35,10 +35,11 @@ class Dish:
         return self.hasTag(tag)
 
     def __str__(self):
+        tmp = [tags_map[x] for x in self.__tags]
         result = f"""
         Dish Name       = {self.__dish_name}
         Restaurant Name = {self.__rest_name}
-        Type            = {self.__tags}
+        Type            = {tmp}
         """
         return result
     
