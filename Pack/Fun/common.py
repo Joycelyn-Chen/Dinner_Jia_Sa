@@ -20,6 +20,11 @@ def Select_Tag():
 def Get_Menu(f_name='..\\..\\menu.txt'):
     return [Dish(*dish) for dish in json.load(open(f_name,'r'))]
     
+def Show_Menu(f_name):
+    menu = Get_Menu(f_name)
+    for dish in menu:
+        print(dish)
+    return True
 
 if __name__ == '__main__':
     # Debug
