@@ -1,1 +1,1 @@
-[[1, "Steak", "Joy kitchen", ["main04"]], [2, "Steamed dumpling", "Joy kitchen", ["main03"]], [3, "Coke Cake", "CCR", ["type01"]], [4, "\u71b1\u8840\u86cb\u7092\u98ef", "\u9019\u9593\u6c92\u6709\u86cb", ["main01", "type01"]]]
+[[2, "Steamed dumpling", "Joy kitchen", ["main03"]], [3, "Coke Cake", "CCR", ["type01"]], [4, "\u71b1\u8840\u86cb\u7092\u98ef", "\u9019\u9593\u6c92\u6709\u86cb", ["main01", "type01"]]]

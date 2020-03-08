@@ -46,10 +46,10 @@ def _Mod_Dish(f_name, menu, ID_list):
                 if choice == 1:
                     new_dish_name = input('New dish name: ')
                     dish.setDishName(new_dish_name)
-                else if choice == 2:
+                elif choice == 2:
                     new_rest_name = input('New restaurant name: ')
                     dish.setRestName(new_rest_name)
-                else if choice == 3:
+                elif choice == 3:
                     flag = int(input('Are you deleting tags? 1 for Yes, 2 for No'))
                     if flag == 1:
                         # choose tag deleted,   call rmTag
